@@ -36,6 +36,8 @@ public class Tasks {
 			//Task 3
 			System.out.println(myName.substring(2, 5));
 
+			System.out.println("ahhhhhhhhhhhhh");
+
 		}
 
 	public static void playingWithMaths() {
