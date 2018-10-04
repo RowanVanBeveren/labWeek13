@@ -7,7 +7,17 @@ public class Tasks {
     	Scanner input = new Scanner(System.in);
 
 
+		System.out.println("Which task would you like to run? \n For playingWithStrings press 1 \n For playingWithMaths press 2");
 
+		int number = input.nextInt();
+
+		if(number == 1){
+
+			playingWithStrings();
+		}
+		else if(number == 2) {
+			playingWithMaths();
+		}
 
 
 
@@ -36,7 +46,7 @@ public class Tasks {
 			//Task 3
 			System.out.println(myName.substring(2, 5));
 
-			System.out.println("ahhhhhhhhhhhhh");
+
 
 		}
 
